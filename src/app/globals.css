@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-transparent rounded-md font-mono text-sm text-white   w-36 h-10 ;
+  }
+  .link {
+    @apply  text-white hover:underline cursor-pointer;
+  }
+}
+
